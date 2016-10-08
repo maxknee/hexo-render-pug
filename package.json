@@ -1,0 +1,32 @@
+{
+  "name": "hexo-renderer-pug",
+  "version": "1.0.0",
+  "description": "Pug renderer plugin for Hexo",
+  "main": "index",
+  "scripts": {
+    "eslint": "eslint .",
+    "jscs": "jscs .",
+    "test": "mocha test/index.js",
+    "test-cov": "istanbul cover --print both _mocha -- test/index.js"
+  },
+  "repository": "hexojs/hexo-renderer-pug",
+  "keywords": [
+    "hexo",
+    "pug",
+    "renderer"
+  ],
+  "author": "Max Knee (maxknee@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "pug": "^2.0.0-beta6"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^1.10.3",
+    "eslint-config-hexo": "^1.0.2",
+    "istanbul": "^0.4.2",
+    "jscs": "^2.9.0",
+    "jscs-preset-hexo": "^1.0.1",
+    "mocha": "^2.4.5"
+  }
+}
