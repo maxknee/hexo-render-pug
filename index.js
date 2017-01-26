@@ -8,6 +8,6 @@ var userConfig = {
     options: hexo.config.pug || {}
 };
 
-hexo.extend.renderer.register('pug', 'html', function(data) {
-    return pugRenderer(extend(data, userConfig));
+hexo.extend.renderer.register('pug', 'html', function(data, locals) {
+    return pugRenderer(extend(data, userConfig), locals);
 }, true);
