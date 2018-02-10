@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/maxknee/hexo-render-pug.svg?branch=master)](https://travis-ci.org/maxknee/hexo-render-pug)
 
-Add support for [Pug].
+Add support for [Pug] in [Hexo].
 
 ## Install
 
@@ -10,4 +10,5 @@ Add support for [Pug].
 $ npm install hexo-render-pug --save
 ```
 
-[Pug]: http://pugjs.org/
+[Pug]: https://pugjs.org/
+[Hexo]: https://hexo.io/
