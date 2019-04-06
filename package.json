@@ -1,8 +1,9 @@
 {
   "name": "hexo-render-pug",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Pug renderer plugin for Hexo",
   "main": "index",
+  "license": "MIT",
   "scripts": {
     "eslint": "eslint .",
     "test": "mocha test/index.js",
@@ -15,7 +16,6 @@
     "renderer"
   ],
   "author": "Max Knee (maxknee@gmail.com)",
-  "license": "MIT",
   "dependencies": {
     "pug": "^2.0.3"
   },
