@@ -1,6 +1,6 @@
 {
   "name": "hexo-render-pug",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Pug renderer plugin for Hexo",
   "main": "index",
   "license": "MIT",
@@ -24,6 +24,6 @@
     "eslint": "^5.16.0",
     "eslint-config-hexo": "^3.0.0",
     "istanbul": "^0.4.2",
-    "mocha": "^6.0.2"
+    "mocha": "^6.1.4"
   }
 }
