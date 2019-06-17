@@ -1,5 +1,5 @@
 {
-  "name": "hexo-render-pug",
+  "name": "@maxknee:hexo-render-pug",
   "version": "2.1.0",
   "description": "Pug renderer plugin for Hexo",
   "main": "index",
@@ -9,7 +9,7 @@
     "test": "mocha test/index.js",
     "test-cov": "istanbul cover --print both _mocha -- test/index.js"
   },
-  "repository": "maxknee/hexo-render-pug",
+  "repository": "git://github.com/maxknee/hexo-render-pug.git",
   "keywords": [
     "hexo",
     "pug",
