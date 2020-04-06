@@ -7,7 +7,7 @@
   "scripts": {
     "eslint": "eslint .",
     "test": "mocha test/index.js",
-    "test-cov": "istanbul cover --print both _mocha -- test/index.js"
+    "test-cov": "nyc --reporter=lcov --reporter=text-summary mocha test/index.js"
   },
   "repository": "git://github.com/maxknee/hexo-render-pug.git",
   "keywords": [
@@ -23,7 +23,7 @@
     "chai": "^4.2.0",
     "eslint": "^5.16.0",
     "eslint-config-hexo": "^3.0.0",
-    "istanbul": "^0.4.2",
-    "mocha": "^7.1.1"
+    "mocha": "^7.1.1",
+    "nyc": "^15.0.1"
   }
 }
